@@ -10,3 +10,26 @@
 //     console.log(password.value);
 // }
 
+// Q no 2
+function calculate (){
+    const num1 = document.querySelector("#num1").value;
+    const num2 = document.querySelector("#num2").value;
+    const operator = document.querySelector("#operator").value;
+    // console.log(num1,num2,operator)
+    switch(operator){
+        case "+":
+            console.log(num1 + num2)
+            break
+        case "-":
+            console.log(num1 - num2)
+            break
+        case "*":
+            console.log(num1 * num2)
+            break
+        case "/":
+            console.log(num1 / num2)
+            break
+        default:
+            console.log("Please Enter A Correct operator")
+    }
+}
