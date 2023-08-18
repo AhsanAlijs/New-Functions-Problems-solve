@@ -11,6 +11,7 @@ function loginUser() {
 }
 
 // Q no 2
+<<<<<<< HEAD
 function calculate() {
     const num1 = +document.querySelector("#num1").value;
     const num2 = +document.querySelector("#num2").value;
@@ -38,6 +39,30 @@ function calculate() {
             result.innerHTML = "Please Enter A Correct operator"
     }
 }
+=======
+// function calculate (){
+//     const num1 = +document.querySelector("#num1").value;
+//     const num2 = +document.querySelector("#num2").value;
+//     const operator = document.querySelector("#operator").value;
+//     // console.log(num1,num2,operator)
+//     switch(operator){
+//         case "+":
+//             console.log(num1 + num2)
+//             break
+//         case "-":
+//             console.log(num1 - num2)
+//             break
+//         case "*":
+//             console.log(num1 * num2)
+//             break
+//         case "/":
+//             console.log(num1 / num2)
+//             break
+//         default:
+//             console.log("Please Enter A Correct operator")
+//     }
+// }
+>>>>>>> c37193a5ceba9ed6b31f1b93acc0fe16ddaf77ee
 
 // Q No 3
 // function genrate() {
@@ -112,6 +137,7 @@ function genrater() {
             // console.log("Pleas Chose one")
     }
 }
+<<<<<<< HEAD
 
 
 function changer() {
@@ -125,3 +151,5 @@ function changer() {
         para.style.color = "white"
     }
 }
+=======
+>>>>>>> c37193a5ceba9ed6b31f1b93acc0fe16ddaf77ee
