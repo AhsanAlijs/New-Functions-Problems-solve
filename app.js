@@ -19,7 +19,7 @@ function loginUser() {
 //     result.style.border = "1px solid black"
 //     result.style.width = "30%"
 //     result.style.fontSize = "20px"
-    // console.log(num1,num2,operator)
+// console.log(num1,num2,operator)
 //     switch (operator) {
 //         case "+":
 //             result.innerHTML = num1 + num2;
@@ -113,15 +113,45 @@ function loginUser() {
 //     }
 // }
 
+// Q No 4
+// function changer() {
+//     const para = document.querySelector("#paragraph")
+//     if (para.style.backgroundColor === "black") {
+//         para.style.backgroundColor = "White";
+//         para.style.color = "black"
+//     }
+//     else {
+//         para.style.backgroundColor = "black"
+//         para.style.color = "white"
+//     }
+// }
 
-function changer() {
-    const para = document.querySelector("#paragraph")
-    if (para.style.backgroundColor === "black") {
-        para.style.backgroundColor = "White";
-        para.style.color = "black"
-    }
-    else {
-        para.style.backgroundColor = "black"
-        para.style.color = "white"
-    }
-}
+// Q No 5
+// const paragraph = document.getElementById("paragraph");
+// paragraph.innerHTML="Hello, Dom!"
+
+// Q No 6
+// function colorChange() {
+//     const divpara = document.getElementById("mydiv");
+//     if (divpara.style.backgroundColor === "red") {
+//         divpara.style.backgroundColor = "white";
+//         divpara.style.color = "black";
+//     }
+//     else{
+//         divpara.style.backgroundColor = "red";
+//         divpara.style.color = "white";
+//     }
+// }
+
+// Q No 7
+// function hiddenButton() {
+//     const hiddenpara = document.getElementById("hidepara");
+//     // hiddenpara.style.display = "none"
+//     if (hiddenpara.style.display === "block") {
+//         hiddenpara.style.display = "none";
+//     }
+//     else {
+//         hiddenpara.style.display = "none";
+//         hiddenpara.style.display = "block";
+//     }
+// }
